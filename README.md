@@ -37,6 +37,16 @@ Normalize XYZ values before rotatig to reduce distortion, or look into having ca
 # Plotter (Debugger)
 This simply loads the .csv data, and then plots it to be converted into a gif. Used to help debug and analyze perfromance of the rotator and datacleaner programs.
 
+## TODO:
+N/A. Operates well, could use some data reformatting to improve runtime. (Takes about 2-5 times as long as input video, depending on PC specs)
+
+# ML (WIP)
+Parses hand location data and attempts to map it to corresponding audio data. Has been put on hold due to flaws with the data set in noise and size inconsistencies. Looking to review in the near future.
+
+## TODO:
+-Review and re-implement.
+-Research Transformers further.
+
 # ChangeLog:
 (11/6/2023):
 -Added README.md
